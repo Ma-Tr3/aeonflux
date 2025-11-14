@@ -1,0 +1,330 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(circle at top, #0d1b2a 0%, #000814 60%, #000 100%);
+    color: #e9eef3;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+a {
+    color: burlywood;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+}
+
+h1 {
+    color: #c1c788;
+    font-size: 36px;
+}
+figure {
+  margin: 0;               
+  padding: 0;
+  display: block;          
+  text-align: center;      
+}
+.logo {
+  max-width: 100px;        
+  height: auto;
+  padding: 5px;
+
+}
+.poster {
+  max-width: 100%;         
+  height: auto;
+  border-radius: 12px;     
+  border: 1px solid #222;  
+  box-shadow: 0 8px 24px rgba(0,0,0,.45); 
+}
+
+figcaption {
+  margin-top: 8px;
+  font-size: 0.9rem;
+  color: #aaa;             
+  font-style: italic;      
+}
+
+section article p {
+    color: white;
+    font-size: 24px;
+    padding: 0 20px;
+}
+
+footer {
+    background: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 12px;
+}
+
+/* Codigo Font */
+.barlow-condensed-thin {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.barlow-condensed-extralight {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.barlow-condensed-light {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.barlow-condensed-regular {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.barlow-condensed-medium {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.barlow-condensed-semibold {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.barlow-condensed-bold {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.barlow-condensed-extrabold {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.barlow-condensed-black {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.barlow-condensed-thin-italic {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.barlow-condensed-extralight-italic {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.barlow-condensed-light-italic {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.barlow-condensed-regular-italic {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.barlow-condensed-medium-italic {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.barlow-condensed-semibold-italic {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.barlow-condensed-bold-italic {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.barlow-condensed-extrabold-italic {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.barlow-condensed-black-italic {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+/* Pagina Sobre */
+li {
+  color: white;
+}
+
+h2 {
+  color: white;
+  font-size: 24px;
+}
+.estiloSinopsis, .estiloContexto {
+  font-size: 18px;
+}
+.contexto {
+  display: flex
+}
+.fotoContexto {
+  max-width: 100%;         
+  height: auto;
+  border-radius: 12px;     
+  border: 1px solid #222;  
+  box-shadow: 0 8px 24px rgba(0,0,0,.45); 
+}
+/* Pagina reparto */
+.reparto {
+  height: 150px;
+  border-radius: 50%;    
+  border: 1px solid #222;  
+  box-shadow: 0 8px 24px rgba(0,0,0,.45); 
+}
+.contentReparto {
+  padding: 0 0 40px 0;
+}
+/* Pagina Producción */
+.titleProduccion, .titleGaleria, .titleContactos, .titleReparto, .titleSobre {
+  text-align: center;
+  padding: 20px 0 0 0;
+}
+.contentProduccion, .contentArte, .contentLocacion {
+  padding: 0 20px 40px 20px
+}
+.contentProduccion h2, .contentLocacion h2, .contentArte h2 {
+  font-size: 24px;
+}
+.produccionEstudio, .produccionLocacion, .produccionArte {
+  font-size: 18px;
+}
+.fotoEstudio, .fotoLocacion, .fotoArte {
+  max-width: 80%;         
+  height: auto;
+  border-radius: 12px;     
+  border: 1px solid #222;  
+  box-shadow: 0 8px 24px rgba(0,0,0,.45); 
+}
+/* Pagina Galeria */
+.contentGaleria {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;        
+}
+.imgGaleria {
+  max-width: 600px;         
+  height: auto;
+  border-radius: 12px;     
+  border: 1px solid #222;  
+  box-shadow: 0 8px 24px rgba(0,0,0,.45); 
+}
+/* Pagina Contacto */
+form {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #1b222b;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0,0,0,.45);
+}
+form fieldset {
+  border: 1px solid #2a3a4c;
+  border-radius: 10px;
+  padding: 14px 18px;
+  margin-bottom: 18px;
+  background: #0e141b;
+}
+
+form legend {
+  padding: 0 8px;
+  font-weight: 700;
+  color: #39d0ff;
+  font-size: 24px;
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+  font-weight: 500;
+  color: white;
+}
+
+form input, form textarea {
+  margin-top: 4px;
+  width: 94%;
+  padding: 8px;
+  border: 1px solid #2a3a4c;
+  border-radius: 6px;
+  background: #1b222b;
+  color: white;
+}
+
+.botonEnviar {
+  margin: 10px;
+  text-align: end;
+}
+
+button {
+  background: #111;
+  border: 1px solid #39d0ff;
+  color: #39d0ff;
+  padding: 10px 18px;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+button:hover {
+  background: #39d0ff;
+  color: #000;
+}
