@@ -1,0 +1,17 @@
+/*sacado de http://cssgrid-generator.netlify.app/*/
+.parent {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: repeat(5, auto);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.grid1 { grid-area: 1 / 1 / 2 / 3; }
+.grid2 { grid-area: 2 / 1 / 3 / 2; }
+.grid3 { grid-area: 2 / 2 / 3 / 3; justify-content: flex-start; }
+.grid4 { grid-area: 3 / 1 / 4 / 3; }
+.grid5 { grid-area: 4 / 1 / 5 / 2; }
+.grid6 { grid-area: 4 / 2 / 5 / 3; }
+.grid7 { grid-area: 5 / 1 / 6 / 2; }
+.grid8 { grid-area: 5 / 2 / 6 / 3; }

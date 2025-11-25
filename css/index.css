@@ -1,0 +1,81 @@
+/*CSS DE INDEX:HTML*/
+.trailer{
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  margin-top: 20px;
+  background-color: black;
+  z-index: -1;
+    iframe{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 177.78vh;
+      height: 100vh;
+      transform: translate(-50%, -50%);
+      pointer-events: none;
+    }
+}
+.contenido{
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  padding-bottom: 50px;
+  z-index: 1; 
+}
+.tituloVideo{
+  font-size: 18px;
+  margin: 10px 50px;
+  text-align: left;
+}
+.descriptionVideo, .tagVideo{
+  font-size: 14px;
+  margin: 0 50px;
+}
+.edicion{
+  display: flex;
+  align-items: flex-start;
+}
+figcaption {
+  margin-top: 8px;
+  font-size: 0.9rem;
+  color: #aaa;             
+  font-style: italic;      
+}
+.edicion figure img{
+  width: 80%; 
+  height: auto;
+  border-radius: 25px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.edicion figure img:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 212, 255, 0.3);
+}
+section article p {
+  color: white;
+  font-size: 18px;
+  padding: 0 20px;
+}
+.sinopsis, .videoAnimado{
+  margin: 80px;
+}
+.contenedor{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+    iframe {
+      margin: 0 40px;
+      width: 560px;
+      height: 315px;
+    }
+}
+
+.descripcionVideoAnimado {
+  padding: 20px;
+  max-width: 60%;
+}
+
+

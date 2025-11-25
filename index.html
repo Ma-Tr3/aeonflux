@@ -5,8 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Æon Flux (2005) Película</title>
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <!--Animacion tarjetas-->
+    <link rel="stylesheet" href="./css/tarjetas.css">
     <!-- Fonts -->
-     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <!-- Favicon -->
@@ -14,36 +18,76 @@
 </head>
 <body>
     <header>
-        <figure class="logo">
+        <figure>
             <a href="./index.html">
                 <img src="./img/aeon-flux-seeklogo.png" class="logo" alt="AEON FLX Logo">
             </a>
         </figure>  
         <nav>
             <ul>
-                <li><a href="./index.html">Æon Flux</a></li>
-                <li><a href="./sobre.html">Sobre</a></li>
-                <li><a href="./reparto.html">Reparto</a></li>
-                <li><a href="./produccion.html">Producción</a></li>
-                <li><a href="./galeria.html">Galeria</a></li>
-                <li><a href="./contactos.html">Contactos</a></li>
+                <li class="botonMenu"><a href="./index.html">Æon Flux</a></li>
+                <li class="botonMenu"><a href="./sobre.html">Sobre</a></li>
+                <li class="botonMenu"><a href="./reparto.html">Reparto</a></li>
+                <li class="botonMenu"><a href="./produccion.html">Producción</a></li>
+                <li class="botonMenu"><a href="./galeria.html">Galeria</a></li>
+                <li class="botonMenu"><a href="./contactos.html">Contactos</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section>
-            <figure>
-                <img src="./img/imagePrincipal.jpg" class="poster" alt="Póster de la película Æon Flux">
-                <figcaption>Póster promocional oficial (2005).</figcaption>
-            </figure>
-            <article>
-                <h1>Sinopsis</h1>
-                <p class="barlow-condensed-semibold">En un futuro encerrado tras murallas, una agente rebelde llamada Æon desafía a un régimen que promete orden a cambio de memoria y libertad. La película (dir. Karyn Kusama) toma la estética biopunk del clásico animado de MTV y la convierte en una aventura de acción y conspiración. Dura 95 minutos y se estrenó en cines el 2 de diciembre de 2005. Protagoniza Charlize Theron.</p>
+        <section class="trailer">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/d11loPMnC2w?si=7Yvz_Jk9j2uubMpn&amp;controls=0&amp;start=5&amp;autoplay=1&amp;mute=1&amp;loop=1&amp;playlist=d11loPMnC2w" title="TRAILER AEON FLUX" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <article class="contenido">
+                <h1 class="tituloVideo">Æon Flux:</h1>
+                <p class="descriptionVideo">Acción futurista, conspiración y rebelión en un mundo controlado por la ciencia.</p>
+                <p class="tagVideo">Ciencia Ficción | Acción | Distopía | Suspenso | Cyberpunk | Futurista | Thriller</p>
             </article>
         </section>
+        <section class="sinopsis">
+            <article class="tarjetas">
+                <h1 class="barlow-condensed-semibold-italic">Sinopsis</h1>
+                <p>En un futuro encerrado tras murallas, una agente rebelde llamada Æon desafía a un régimen que promete orden a cambio de memoria y libertad. La película (dir. Karyn Kusama) toma la estética biopunk del clásico animado de MTV y la convierte en una aventura de acción y conspiración. Dura 95 minutos y se estrenó en cines el 2 de diciembre de 2005. Protagoniza Charlize Theron.</p>
+            </article>
+        </section> 
+        <section>
+            <h1 class="barlow-condensed-semibold-italic">Ediciones Limitadas</h1>
+            <div class="edicion">
+                <figure>
+                    <img src="./img/20068.jpg" alt="Aeon Flux: Limited edition Blu-ray 4K UltraHD">
+                    <figcaption>Aeon Flux: Limited edition Blu-ray 4K UltraHD</figcaption>
+                </figure>
+                <figure>
+                    <img src="./img/maxresdefault (1).jpg" alt="Aeon Flux: The Complete Animated Collection (DVD), MTV">
+                    <figcaption>Aeon Flux: The Complete Animated Collection (DVD), MTV</figcaption>
+                </figure>
+            </div>
+        </section>
+        <section class="videoAnimado tarjetas">
+            <h1 class="barlow-condensed-semibold-italic">
+                Æon Flux: el dibujo animado que rompió las reglas en MTV
+            </h1>
+            <div class="contenedor">
+                <article class="descripcionVideoAnimado">                
+                    <p>En los años 90, cuando MTV todavía se animaba a arriesgar, nació Æon Flux, una serie animada que no explicaba todo, no pedía permiso y no seguía fórmulas.
+                    Con una estética oscura, futurista y biopunk, trajo una forma diferente de contar historias: sin finales felices, sin héroes clásicos y con un estilo visual que parecía salido de un sueño distorsionado.</p>
+                    <p>Æon Flux no fue solo un dibujo animado, fue una experiencia. Formó parte de una generación donde MTV apostó por contenido adulto, experimental y creativo, marcando una época irrepetible donde la animación era arte, riesgo y revolución.</p>
+                </article>
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/sksLnNkhERU?si=P5rICeJrkN04mTZB" title="Video Animado Aeon Flux" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </section> 
     </main>
     <footer>
+        <figure>
+            <a href="./index.html">
+                <img src="./img/aeon-flux-seeklogo.png" class="logo" alt="AEON FLUX Logo">
+            </a>
+        </figure>  
         <p class="barlow-condensed-extralight">© 2025 Æon Flux. Todos los derechos reservados.</p>
+        <figure>
+            <a href="https://www.paramountpictures.com/" target="_blank">
+                <img src="./img/pngwing.com.png" class="logoParamoun" alt="PARAMOUN LOGO">
+            </a>
+        </figure>
     </footer> 
 </body>
 </html>

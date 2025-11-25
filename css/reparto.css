@@ -1,0 +1,16 @@
+/* Pagina reparto */
+.reparto {
+  height: 150px;
+  border-radius: 50%;    
+  border: 1px solid #222;  
+  box-shadow: 0 8px 24px rgba(0,0,0,.45); 
+}
+.contentReparto {
+  display: flex;
+  align-items: center;
+  margin: 0 80px;
+  padding: 0 0 40px 0;
+}
+figcaption{
+  padding: 0 40px;
+}

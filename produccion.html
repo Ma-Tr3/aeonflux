@@ -5,33 +5,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Æon Flux (2005) Película</title>
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/produccion.css">
+    <!--Animacion-->
+    <link rel="stylesheet" href="./css/tarjetas.css">
     <!-- Fonts -->
+    <link rel="stylesheet" href="./css/fonts.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <!-- Favicon -->
     <link rel="icon" type="image/png" sizes="32x32" href="./img/aeon-flux-seeklogo.png">
-</head>
+</head> 
 <body>
     <header>
-        <figure class="logo">
+        <figure>
             <a href="./index.html">
                 <img src="./img/aeon-flux-seeklogo.png" class="logo" alt="AEON FLX Logo">
             </a>
-        </figure>    
+        </figure>  
         <nav>
             <ul>
-                <li><a href="./index.html">Æon Flux</a></li>
-                <li><a href="./sobre.html">Sobre</a></li>
-                <li><a href="./reparto.html">Reparto</a></li>
-                <li><a href="./produccion.html">Producción</a></li>
-                <li><a href="./galeria.html">Galeria</a></li>
-                <li><a href="./contactos.html">Contactos</a></li>
+                <li class="botonMenu"><a href="./index.html">Æon Flux</a></li>
+                <li class="botonMenu"><a href="./sobre.html">Sobre</a></li>
+                <li class="botonMenu"><a href="./reparto.html">Reparto</a></li>
+                <li class="botonMenu"><a href="./produccion.html">Producción</a></li>
+                <li class="botonMenu"><a href="./galeria.html">Galeria</a></li>
+                <li class="botonMenu"><a href="./contactos.html">Contactos</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <div class="titleProduccion">
+        <section class="produccionContenedor">
+            <h1>Producción</h1>
+            <article class="contentProduccion">
+                <h2 class="barlow-condensed-medium-italic">Estudios y compañías</h2>
+                <p>La película fue producida por <strong>Paramount Pictures</strong> y <strong>Lakeshore Entertainment</strong>, con colaboración de MTV Films. El rodaje principal se realizó en <strong>Babelsberg Studios</strong>, en Potsdam (Alemania), uno de los estudios de cine más antiguos y prestigiosos del mundo.</p>
+                <figure>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Filmstudio_Babelsberg_Eingang.jpg" alt="Babelsberg Studios, Alemania — escenario central del rodaje." class="fotoEstudio">
+                    <figcaption>Babelsberg Studios, Alemania — escenario central del rodaje.</figcaption>
+                </figure>
+                
+                
+            </article>
+            <article class="contentProduccion">
+                <h2 class="barlow-condensed-medium-italic">Locaciones</h2>
+                <p>Para representar la ciudad futurista de <strong>Bregna</strong>, se usaron edificios modernistas y contemporáneos de Berlín y Potsdam. Entre ellos, el <strong>Haus der Kulturen der Welt</strong> y el <strong>Bauhaus-Archiv</strong>, cuya arquitectura geométrica reforzó la estética minimalista y biopunk de la película.</p>
+                <figure>
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/02/e9/91/73/haus-der-kulturen-der.jpg?w=1200&h=-1&s=1" alt="Haus der Kulturen der Welt, Berlín — una de las locaciones usadas en Æon Flux." class="fotoLocacion">
+                <figcaption>Haus der Kulturen der Welt, Berlín — una de las locaciones usadas en Æon Flux.</figcaption>
+                </figure>
+            </article>
+            <article class="contentProduccion">
+                <h2 class="barlow-condensed-medium-italic">Dirección de arte</h2>
+                    <p>El diseño de producción apostó por <strong>líneas geométricas, superficies limpias y colores fríos</strong>, transmitiendo una sensación de orden artificial y deshumanización. Esta elección visual buscó subrayar el contraste entre el régimen autoritario y la rebelión de Æon Flux.</p>
+                    <figure>
+                        <img src="https://images.adsttc.com/media/images/548a/f995/e58e/ce0d/7900/00be/large_jpg/15.jpg?1418394001" alt="Set de rodaje con diseño modernista que resalta la estética biopunk." class="fotoArte">
+                        <figcaption>Set de rodaje con diseño modernista que resalta la estética biopunk.</figcaption>
+                    </figure>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <figure>
+            <a href="./index.html">
+                <img src="./img/aeon-flux-seeklogo.png" class="logo" alt="AEON FLUX Logo">
+            </a>
+        </figure>  
+        <p class="barlow-condensed-extralight">© 2025 Æon Flux. Todos los derechos reservados.</p>
+        <figure>
+            <a href="https://www.paramountpictures.com/" target="_blank">
+                <img src="./img/pngwing.com.png" class="logoParamoun" alt="PARAMOUN LOGO">
+            </a>
+        </figure>
+    </footer> 
+</body>
+</html>
+
+<!--CODIGO VIEJO
+
+<div class="titleProduccion">
             <h1 class="barlow-condensed-semibold-italic">Producción</h1>
         </div>
         <section class="contentProduccion">
@@ -64,9 +116,5 @@
                 <figcaption>Set de rodaje con diseño modernista que resalta la estética biopunk.</figcaption>
             </figure>
         </section>
-    </main>
-    <footer>
-        <p class="barlow-condensed-extralight">© 2025 Æon Flux. Todos los derechos reservados.</p>
-    </footer> 
-</body>
-</html>
+
+-->

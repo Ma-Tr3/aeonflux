@@ -1,0 +1,45 @@
+.tarjetaBio, .contenedor, .formulario, .repartoContenedor, .galeriaContenedor, .produccionContenedor {
+    margin: 80px;
+}
+.tarjetas, .tarjetaBio, .formulario, .repartoContenedor, .galeriaContenedor, .produccionContenedor{
+  padding: 20px;
+  border-radius: 25px;
+  background: radial-gradient(circle at top left, rgba(255, 47, 231, 0.075), transparent 25%);
+  transition: transform 1s, filter 2s ease-in-out;
+  /*Animacion*/
+  animation: aeon 2s infinite alternate;
+}
+.tarjetas:hover {
+  filter: blur(2);
+  transform: scale(1.025);
+}
+.reparto, .imgGaleria, .contacto {
+  animation: aeon 2s infinite alternate;
+}
+@keyframes aeon {
+  from {
+      /* Múltiples sombras apiladas para un resplandor intenso */
+      box-shadow: 0 0 1px #ffffff33, 
+                  0 0 2px #ffffff33, 
+                  0 0 3px #0084ff31, 
+                  0 0 4px #0084ff31, 
+                  0 0 5px #0084ff31,
+                  0 0 6px #0084ff31;
+    }
+    to {
+      /* Cambia ligeramente las sombras para crear el efecto de movimiento/parpadeo */
+      box-shadow: 0 0 2px #ffffff33, 
+                  0 0 3px #0084ff31, 
+                  0 0 4px #0084ff31,
+                  0 0 5px #0084ff31,
+                  0 0 6px #0084ff31,
+                  0 0 7px #0084ff31;
+    } 
+}
+.lineHorizontal {
+    border-top: 1px solid aqua;
+}
+.lineVertical {
+    border-left: 1px solid aqua;
+}
+

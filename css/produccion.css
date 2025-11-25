@@ -1,0 +1,21 @@
+/* Pagina Producción */
+.titleProduccion, .titleGaleria, .titleContactos, .titleReparto, .titleSobre {
+  text-align: center;
+  padding: 20px 0 0 0;
+}
+.contentProduccion, .contentArte, .contentLocacion {
+  padding: 0 20px 40px 20px
+}
+.contentProduccion h2, .contentLocacion h2, .contentArte h2 {
+  font-size: 24px;
+}
+.produccionEstudio, .produccionLocacion, .produccionArte {
+  font-size: 18px;
+}
+.fotoEstudio, .fotoLocacion, .fotoArte {
+  max-width: 80%;         
+  height: auto;
+  border-radius: 12px;     
+  border: 1px solid #222;  
+  box-shadow: 0 8px 24px rgba(0,0,0,.45); 
+}

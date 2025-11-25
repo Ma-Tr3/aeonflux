@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Æon Flux (2005) Película</title>
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/contacto.css">
+    <!--Animacion-->
+    <link rel="stylesheet" href="./css/tarjetas.css">
+    <!-- Fonts -->
+    <link rel="stylesheet" href="./css/fonts.css">
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,46 +19,58 @@
 </head>
 <body>
     <header>
-        <figure class="logo">
+        <figure>
             <a href="./index.html">
                 <img src="./img/aeon-flux-seeklogo.png" class="logo" alt="AEON FLX Logo">
             </a>
         </figure>  
         <nav>
             <ul>
-                <li><a href="./index.html">Æon Flux</a></li>
-                <li><a href="./sobre.html">Sobre</a></li>
-                <li><a href="./reparto.html">Reparto</a></li>
-                <li><a href="./produccion.html">Producción</a></li>
-                <li><a href="./galeria.html">Galeria</a></li>
-                <li><a href="./contactos.html">Contactos</a></li>
+                <li class="botonMenu"><a href="./index.html">Æon Flux</a></li>
+                <li class="botonMenu"><a href="./sobre.html">Sobre</a></li>
+                <li class="botonMenu"><a href="./reparto.html">Reparto</a></li>
+                <li class="botonMenu"><a href="./produccion.html">Producción</a></li>
+                <li class="botonMenu"><a href="./galeria.html">Galeria</a></li>
+                <li class="botonMenu"><a href="./contactos.html">Contactos</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <div class="titleContactos">
-            <h1 class="barlow-condensed-semibold-italic">Contacto</h1>
-            <p class="barlow-condensed-medium">Completá el formulario para enviar un mensaje.</p>
-        </div>
-        <form action="#">
-            <fieldset>
-                <legend>Formulario de Contacto</legend>
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" placeholder="Escriba su Nombre" required>
+        <section class="formulario">
+            <div class="titleContactos">
+                <h1 class="barlow-condensed-semibold-italic">Contacto</h1>
+                <p class="barlow-condensed-medium alinear">Completá el formulario para enviar un mensaje.</p>
+            </div>
+            <form action="#" class="contacto">
+                <fieldset class="contacto">
+                    <legend></legend>Formulario de Contacto</legend>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" class="contacto" placeholder="Escriba su Nombre" required>
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" placeholder="Escriba su Email" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" class="contacto" placeholder="Escriba su Email" required>
 
-                <label for="mensaje">Mensaje:</label>
-                <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escriba su Mensaje" required></textarea>
-                <div class="botonEnviar">
-                    <button type="submit">Enviar</button>
-                </div>    
-            </fieldset>
-        </form>
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" class="contacto" placeholder="Escriba su Mensaje" required></textarea>
+                    <div class="botonEnviar">
+                        <button type="submit">Enviar</button>
+                    </div>    
+                </fieldset>
+            </form>
+        </section>
     </main>
     <footer>
+        <figure>
+            <a href="./index.html">
+                <img src="./img/aeon-flux-seeklogo.png" class="logo" alt="AEON FLUX Logo">
+            </a>
+        </figure>  
         <p class="barlow-condensed-extralight">© 2025 Æon Flux. Todos los derechos reservados.</p>
+        <figure>
+            <a href="https://www.paramountpictures.com/" target="_blank">
+                <img src="./img/pngwing.com.png" class="logoParamoun" alt="PARAMOUN LOGO">
+            </a>
+        </figure>
     </footer> 
 </body>
 </html>

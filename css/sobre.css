@@ -1,0 +1,26 @@
+/* Pagina Sobre */
+article {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+li {
+  color: white;
+}
+p {
+  font-size: 18px;
+}
+img{
+    width: 100%;
+}
+.estiloSinopsis, .estiloContexto {
+  font-size: 18px;
+}
+.contorno {
+  border-radius: 25px;
+  box-shadow: 0 8px 15px rgba(0, 212, 255, 0.3);
+}
+
+
+
