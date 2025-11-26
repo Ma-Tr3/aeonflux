@@ -1,15 +1,6 @@
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1;
-    margin: 0;
-    padding: 0;
-    background: #0d1b2a;
-    color: antiquewhite;
-}
-p{
-    font-size: 24px;
-}
-img{
+
+
+.mensajeImagen, .errorImagen {
     width: 100%;
     max-width: 600px;
     height: auto;
@@ -21,6 +12,5 @@ img{
     margin: 100px;
 }
 .errorTexto, .mensajeTexto{
-    align-items: center;
     width: 45%;
 }
