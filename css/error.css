@@ -9,12 +9,18 @@ body {
 p{
     font-size: 24px;
 }
-.error{
+img{
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+.error, .mensaje{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     margin: 100px;
 }
-.errorTexto{
-    text-align: center;
+.errorTexto, .mensajeTexto{
+    align-items: center;
+    width: 45%;
 }
