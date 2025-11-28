@@ -22,5 +22,17 @@ img{
   box-shadow: 0 8px 15px rgba(0, 212, 255, 0.3);
 }
 
+.audio{
+  opacity:calc(0.5);
+  position: fixed;
+  width: 25%;
+  height: auto;
+  left: 0;
+  bottom: 80px;
+}
+
+.audio:hover {
+  opacity: calc(100)
+}
 
 
