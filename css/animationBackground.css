@@ -1,3 +1,4 @@
+/*CSS fondo*/
 .gradient-background {
  background: linear-gradient(-45deg, #111111, #4d3ce7, #013a4e, #048cfc);
 	animation: gradient 15s ease infinite;
