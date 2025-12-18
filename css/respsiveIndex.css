@@ -1,0 +1,13 @@
+@media (max-width: 786px) {
+    .descripcionVideoAnimado {
+        max-width: none;
+    }
+    .contenedor {
+        flex-direction: column;
+        margin: 20px;
+         iframe {
+            margin: auto;
+            width: 400px;
+        }
+    }
+}
