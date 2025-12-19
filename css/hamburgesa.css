@@ -1,3 +1,6 @@
+.burgerDisplay{
+  display: none;
+}
 @media (max-width: 767px){
     nav {
             position: fixed;
