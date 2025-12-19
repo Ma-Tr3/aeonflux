@@ -31,6 +31,62 @@
     .barlow-condensed-medium-italic{
         font-weight: 200;
     }
+    nav {
+            position: fixed;
+            top: 0;
+            right: 0;
+            display: flex;
+            gap: 10px;
+            z-index: 999;
+    }
+    .burgerDisplay{
+        display: block;
+    }
+    .menuDisplay{
+        display: none;
+    }
+    #panelhamburguesa {
+            height: 100vh;
+            width: 400px;
+            position: fixed;
+            top: 10vh;
+            right: -1000px;
+            transition: right .7s ease;
+            background: gray no-repeat url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9a3166f6-c6ad-4d21-a2cd-0bd46a19bf7c/denbfri-0819f292-a11b-4da2-b8d2-7534d456b8ea.jpg/v1/fill/w_1000,h_659,q_75,strp/burgir_by_dothemarioin20second_denbfri-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjU5IiwicGF0aCI6IlwvZlwvOWEzMTY2ZjYtYzZhZC00ZDIxLWEyY2QtMGJkNDZhMTliZjdjXC9kZW5iZnJpLTA4MTlmMjkyLWExMWItNGRhMi1iOGQyLTc1MzRkNDU2YjhlYS5qcGciLCJ3aWR0aCI6Ijw9MTAwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.IoC_q0KJQCLGKNSO7_PJfz40Bu0oZ2AgiNT23Pgg_WU);
+            background-size: 100% 100%;
+        }
+
+        #panelhamburguesa:target {
+            right: 0;
+            z-index: 2;
+        }
+        #cerrar {
+            display: none;
+        }
+        #panelhamburguesa:target ~ header nav #abrir {
+            display: none;
+        }
+        #panelhamburguesa:target ~ header nav #cerrar {
+            display: inline-block;
+        }
+
+        #tapado {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            background-color: rgba(0, 0, 0, 0);
+            opacity: 0;
+            transition: background-color 1s ease, opacity 0.5s ease;
+            pointer-events: none;
+        }
+        #panelhamburguesa:target ~ #tapado {
+            opacity: 1;
+            background-color: rgba(0, 0, 0, 0.621);
+            pointer-events: auto;
+        }
     .edicion {
         flex-direction: column;
         figure{
@@ -38,7 +94,7 @@
         }
     }
     section article p {
-        font-size: 12px;
+        font-size: 14px;
 
     }
     .tarjetas, .tarjetaBio, .formulario, .repartoContenedor, .galeriaContenedor, .produccionContenedor{
