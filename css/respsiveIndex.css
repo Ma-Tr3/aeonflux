@@ -26,7 +26,10 @@
 }
 @media (max-width: 767px){
     body {
-        line-height: 1.1;
+        line-height: 1.2;
+    }
+    .barlow-condensed-medium-italic{
+        font-weight: 200;
     }
     .edicion {
         flex-direction: column;
