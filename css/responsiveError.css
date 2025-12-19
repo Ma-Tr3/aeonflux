@@ -1,5 +1,6 @@
 @media (max-width: 767px){
     .error {
         flex-direction: column;
+        margin: 20px;
     }
 }

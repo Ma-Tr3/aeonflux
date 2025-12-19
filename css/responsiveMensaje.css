@@ -1,5 +1,6 @@
 @media (max-width: 767px){
     .mensaje {
         flex-direction: column;
+        margin: 20px;
     }
 }
