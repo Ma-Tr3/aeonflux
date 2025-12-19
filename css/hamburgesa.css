@@ -1,4 +1,5 @@
-nav {
+@media (max-width: 767px){
+    nav {
             position: fixed;
             top: 0;
             right: 0;
@@ -57,3 +58,4 @@ nav {
             background-color: rgba(0, 0, 0, 0.621);
             pointer-events: auto;
     }
+}
