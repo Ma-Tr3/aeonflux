@@ -52,6 +52,7 @@
             top: 10vh;
             right: -1000px;
             transition: right .7s ease;
+            background-color: radial-gradient(circle at top left, rgba(255, 47, 231, 0.075), transparent 25%);
             background-size: 100% 100%;
         }
 
