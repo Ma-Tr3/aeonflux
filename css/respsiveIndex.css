@@ -15,10 +15,9 @@
     .edicion {
         flex-direction: column;
     }
-    .edicion figure{
-            margin: 20px auto;
+    figure{
+            margin: 20px;
         }
-    
     .contenedor {
         iframe{
             width: 100%;
