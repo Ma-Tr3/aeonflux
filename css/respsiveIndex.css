@@ -34,10 +34,8 @@
         filter: none;
         transform: none;
     }
-    .contenedor {
-        iframe{
+    .contenedor iframe{
             width: 100%;
-        }
     }
 
 }
