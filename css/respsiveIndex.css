@@ -15,6 +15,9 @@
     .edicion {
         flex-direction: column;
     }
+    .contenedor iframe{
+        width: 100%;
+    }
 }
 @media (min-width: 767px){
     .edicion {
