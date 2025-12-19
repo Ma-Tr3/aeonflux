@@ -115,6 +115,10 @@
     .sinopsis, .videoAnimado {
         margin: 20px;
     }
-    
+    footer{
+        gap: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
 
 }
