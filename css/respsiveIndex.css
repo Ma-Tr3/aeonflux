@@ -41,6 +41,7 @@
     }
     .burgerDisplay ul li {
         list-style: none;
+        line-height: 1.2;
     }
     .burgerDisplay{
         display: block;
