@@ -2,5 +2,9 @@
     .tarjetaBio, .contenedor, .formulario, .repartoContenedor, .galeriaContenedor, .produccionContenedor {
         margin: 20px;
     }
+    .parent {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
