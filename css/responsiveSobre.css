@@ -1,0 +1,6 @@
+@media (max-width: 767px){
+    .tarjetaBio, .contenedor, .formulario, .repartoContenedor, .galeriaContenedor, .produccionContenedor {
+        margin: 20px;
+    }
+}
+
