@@ -34,5 +34,10 @@
         filter: none;
         transform: none;
     }
+    .contenedor {
+        iframe{
+            width: 100%;
+        }
+    }
 
 }
