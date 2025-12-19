@@ -41,7 +41,7 @@
     }
     .burgerDisplay ul li {
         list-style: none;
-        line-height: 1.2;
+        line-height: 1.8;
     }
     .burgerDisplay{
         display: block;
@@ -51,7 +51,7 @@
     }
     #panelhamburguesa {
             height: 100vh;
-            width: 400px;
+            width: 360px;
             position: fixed;
             top: 10vh;
             right: -1000px;
@@ -98,7 +98,7 @@
     }
     section article p {
         font-size: 14px;
-
+        padding: 0px;
     }
     .tarjetas, .tarjetaBio, .formulario, .repartoContenedor, .galeriaContenedor, .produccionContenedor{
         animation: none;
