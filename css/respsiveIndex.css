@@ -7,7 +7,24 @@
         margin: 20px;
          iframe {
             margin: auto;
-            width: 400px;
+            width: 60%;
         }
     }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .edicion {
+        flex-direction: column;
+    }
+}
+@media (min-width: 767px){
+    .tarjetas, .tarjetaBio, .formulario, .repartoContenedor, .galeriaContenedor, .produccionContenedor{
+        animation: none;
+        transition: none;
+        background: none;
+    }
+    .tarjetas:hover {
+        filter: none;
+        transform: none;
+    }
+
 }
