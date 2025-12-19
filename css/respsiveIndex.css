@@ -39,6 +39,10 @@
             gap: 10px;
             z-index: 999;
     }
+    nav ul {
+    list-style: none;
+    padding: 0;
+}
     .burgerDisplay{
         display: block;
     }
@@ -52,25 +56,24 @@
             top: 10vh;
             right: -1000px;
             transition: right .7s ease;
-            background: rgb(1, 1, 90);
+            background: rgb(0, 0, 41);
             background-size: 100% 100%;
-        }
+    }
 
-        #panelhamburguesa:target {
+    #panelhamburguesa:target {
             right: 0;
             z-index: 2;
-        }
-        #cerrar {
+    }
+    #cerrar {
             display: none;
-        }
-        #panelhamburguesa:target ~ header nav #abrir {
+    }
+    #panelhamburguesa:target ~ header nav #abrir {
             display: none;
-        }
-        #panelhamburguesa:target ~ header nav #cerrar {
+    }
+    #panelhamburguesa:target ~ header nav #cerrar {
             display: inline-block;
-        }
-
-        #tapado {
+    }
+    #tapado {
             position: fixed;
             top: 0;
             left: 0;
@@ -81,12 +84,12 @@
             opacity: 0;
             transition: background-color 1s ease, opacity 0.5s ease;
             pointer-events: none;
-        }
-        #panelhamburguesa:target ~ #tapado {
+    }
+    #panelhamburguesa:target ~ #tapado {
             opacity: 1;
             background-color: rgba(0, 0, 0, 0.621);
             pointer-events: auto;
-        }
+    }
     .edicion {
         flex-direction: column;
         figure{
