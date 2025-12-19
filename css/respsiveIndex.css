@@ -115,6 +115,9 @@
     .sinopsis, .videoAnimado {
         margin: 20px;
     }
+    .descripcionVideoAnimado {
+        padding: 0px;
+    }
     footer{
         gap: 20px;
         flex-direction: column;
