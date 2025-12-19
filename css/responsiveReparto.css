@@ -1,5 +1,5 @@
 @media (max-width: 767px){
-    .galeriaContenedor{
+    article{
         display: flex;
         flex-direction: column;
     }
