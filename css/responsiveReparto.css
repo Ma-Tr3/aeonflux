@@ -1,6 +1,5 @@
 @media (max-width: 767px){
-    article{
-        display: flex;
+    figure{
         flex-direction: column;
     }
 }
