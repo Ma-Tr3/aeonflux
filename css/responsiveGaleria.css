@@ -5,7 +5,11 @@
     }
 }
 @media (max-width: 767px){
-    .produccionContenedor {
+    .parent {
+        display: flex;
+        flex-direction: column;
+    }
+    .galeriaContenedor {
         margin: 20px;
         padding: 0px;
     }
