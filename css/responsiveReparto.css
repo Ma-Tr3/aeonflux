@@ -2,4 +2,7 @@
     .contentReparto{
         flex-direction: column;
     }
+    .galeriaContenedor{
+        margin: 20px;
+    }
 }
