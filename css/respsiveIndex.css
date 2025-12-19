@@ -17,6 +17,9 @@
     }
 }
 @media (min-width: 767px){
+    .edicion {
+        flex-direction: column;
+    }
     .tarjetas, .tarjetaBio, .formulario, .repartoContenedor, .galeriaContenedor, .produccionContenedor{
         animation: none;
         transition: none;
