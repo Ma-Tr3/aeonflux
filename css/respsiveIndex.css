@@ -37,6 +37,10 @@
             margin: 20px;
         }
     }
+    section article p {
+        font-size: 12px;
+
+    }
     .tarjetas, .tarjetaBio, .formulario, .repartoContenedor, .galeriaContenedor, .produccionContenedor{
         animation: none;
         transition: none;
