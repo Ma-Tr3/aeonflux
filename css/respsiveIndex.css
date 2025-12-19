@@ -31,65 +31,6 @@
     .barlow-condensed-medium-italic{
         font-weight: 200;
     }
-    nav {
-            position: fixed;
-            top: 0;
-            right: 0;
-            display: flex;
-            gap: 10px;
-            z-index: 999;
-    }
-    .burgerDisplay ul li {
-        list-style: none;
-        line-height: 1.8;
-    }
-    .burgerDisplay{
-        display: block;
-    }
-    .menuDisplay{
-        display: none;
-    }
-    #panelhamburguesa {
-            height: 100vh;
-            width: 360px;
-            position: fixed;
-            top: 10vh;
-            right: -1000px;
-            transition: right .7s ease;
-            background: rgb(0, 0, 41);
-            background-size: 100% 100%;
-    }
-
-    #panelhamburguesa:target {
-            right: 0;
-            z-index: 2;
-    }
-    #cerrar {
-            display: none;
-    }
-    #panelhamburguesa:target ~ header nav #abrir {
-            display: none;
-    }
-    #panelhamburguesa:target ~ header nav #cerrar {
-            display: inline-block;
-    }
-    #tapado {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: 1;
-            background-color: rgba(0, 0, 0, 0);
-            opacity: 0;
-            transition: background-color 1s ease, opacity 0.5s ease;
-            pointer-events: none;
-    }
-    #panelhamburguesa:target ~ #tapado {
-            opacity: 1;
-            background-color: rgba(0, 0, 0, 0.621);
-            pointer-events: auto;
-    }
     .edicion {
         flex-direction: column;
         figure{
