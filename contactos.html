@@ -13,17 +13,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!--Responsive 786px-->
+    <link rel="stylesheet" href="./css/respsiveIndex.css">
+    <link rel="stylesheet" href="./css/responsiveContacto.css">
+    <!--Menu Hamburguesa-->
+    <link rel="stylesheet" href="./css/hamburgesa.css">
     <!-- Favicon -->
     <link rel="icon" type="image/png" sizes="32x32" href="./img/aeon-flux-seeklogo.png">
 </head>
 <body>
-    <header>
-        <figure>
-            <a href="./index.html">
-                <img src="./img/aeon-flux-seeklogo.png" class="logo" alt="AEON FLX Logo">
-            </a>
-        </figure>  
-        <nav>
+    <div class="burgerDisplay" id="panelhamburguesa">
             <ul>
                 <li class="botonMenu"><a href="./index.html">Æon Flux</a></li>
                 <li class="botonMenu"><a href="./sobre.html">Sobre</a></li>
@@ -32,7 +31,38 @@
                 <li class="botonMenu"><a href="./galeria.html">Galeria</a></li>
                 <li class="botonMenu"><a href="./contactos.html">Contactos</a></li>
             </ul>
-        </nav>
+    </div>
+    <div id="tapado"></div>
+    <header>
+        <figure>
+            <a href="./index.html">
+                <img src="./img/aeon-flux-seeklogo.png" class="logo" alt="AEON FLX Logo">
+            </a>
+        </figure> 
+        <nav>
+             <ul class="menuDisplay">
+                <li class="botonMenu"><a href="./index.html">Æon Flux</a></li>
+                <li class="botonMenu"><a href="./sobre.html">Sobre</a></li>
+                <li class="botonMenu"><a href="./reparto.html">Reparto</a></li>
+                <li class="botonMenu"><a href="./produccion.html">Producción</a></li>
+                <li class="botonMenu"><a href="./galeria.html">Galeria</a></li>
+                <li class="botonMenu"><a href="./contactos.html">Contactos</a></li>
+            </ul>
+            <div class="burgerDisplay">
+                <a href="#panelhamburguesa" id="abrir">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px"
+                        fill="#e3e3e3">
+                        <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                    </svg>
+                </a>
+                <a href="" id="cerrar"> <!-- Cierra el menú -->
+                    <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px"
+                        fill="#e3e3e3">
+                        <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                    </svg>
+                </a> 
+            </div>          
+        </nav> 
     </header>
     <main>
         <section class="formulario">
